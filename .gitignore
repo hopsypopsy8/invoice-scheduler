@@ -1,0 +1,22 @@
+# Virtual environment
+invoice/
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated data — never commit real invoice data or derived output
+invoices.db
+*.xlsx
+
+# Sample/real invoice source files
+*.pdf
+
+# Superseded pre-refactor scripts
+old_code/
+
+# Internal project spec, not for the public repo
+SPEC.md
+
