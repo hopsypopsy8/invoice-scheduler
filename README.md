@@ -3,6 +3,10 @@
 A small tool for turning a folder of invoice PDFs/images into structured,
 validated data — without sending anything to the cloud.
 
+Uses llama 12B model, this used gemma, but you can use qwen also. 
+The real tradeoff will be visualization of receipts and its accuracy in reading numbers.
+This repo will have long term support if request via github, otherwise I will update as I find required. 
+
 ## Why
 
 Bookkeeping for a small business usually means opening a pile of invoice PDFs
